@@ -71,7 +71,7 @@ export default function Lobby() {
   const players = Object.values(game.players);
 
   return (
-    <View style={styles.container}>
+    <SafeAreaView style={styles.container} edges={['top', 'left', 'right']}>
       {/* Header */}
       <View style={styles.header}>
         <TouchableOpacity onPress={handleLeave} style={styles.backButton}>
