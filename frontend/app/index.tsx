@@ -71,14 +71,14 @@ export default function Index() {
   };
 
   return (
-    <View style={styles.container}>
+    <SafeAreaView style={styles.container}>
       {/* Header */}
       <View style={styles.header}>
         <View style={styles.iconWrapper}>
           <Ionicons name="radio" size={60} color="#00d2ff" />
         </View>
         <Text style={styles.title}>RESONANCE</Text>
-        <Text style={styles.subtitle}>Sincronízate o sabótalo</Text>
+        <Text style={styles.subtitle}>Sincronízate o sabotéalo</Text>
       </View>
 
       {/* Buttons */}
