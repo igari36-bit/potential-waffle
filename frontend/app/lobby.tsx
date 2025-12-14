@@ -39,9 +39,14 @@ export default function Lobby() {
 
   const handleStartGame = () => {
     if (playerCount < 4) {
-      Alert.alert('No hay suficientes jugadores', 'Se necesitan al menos 4 jugadores para comenzar.');
+      Alert.alert('Jugadores insuficientes', 'Se necesitan al menos 4 jugadores para comenzar la partida.');
       return;
     }
+    
+    if (Platform.OS !== 'web') {
+      Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
+    }
+    
     startGame();
   };
 
