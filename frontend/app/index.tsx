@@ -56,10 +56,6 @@ export default function Index() {
       return;
     }
     
-    if (Platform.OS !== 'web') {
-      Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
-    }
-    
     Keyboard.dismiss();
     setShowJoinModal(false);
     router.push('/lobby');
