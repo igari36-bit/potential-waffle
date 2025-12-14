@@ -119,6 +119,11 @@ export default function Index() {
         </TouchableOpacity>
       </View>
 
+      {/* Footer Info */}
+      <View style={styles.footer}>
+        <Text style={styles.footerText}>4-8 jugadores · 6-8 minutos</Text>
+      </View>
+
       {/* Create Game Modal */}
       <Modal
         visible={showCreateModal}
