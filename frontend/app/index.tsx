@@ -30,32 +30,42 @@ export default function Index() {
 
   const handleCreateGame = () => {
     if (!playerName.trim()) {
-      setError('Por favor ingresa tu nombre');
+      setError('Por favor, ingresa tu nombre');
       return;
     }
     
+    if (Platform.OS !== 'web') {
+      Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
+    }
+    
     const code = createGame(playerName.trim());
+    Keyboard.dismiss();
     setShowCreateModal(false);
     router.push('/lobby');
   };
 
   const handleJoinGame = () => {
     if (!playerName.trim()) {
-      setError('Por favor ingresa tu nombre');
+      setError('Por favor, ingresa tu nombre');
       return;
     }
     
     if (!joinCode.trim()) {
-      setError('Por favor ingresa el código');
+      setError('Por favor, ingresa el código');
       return;
     }
     
     const success = joinGame(joinCode.toUpperCase().trim(), playerName.trim());
     if (!success) {
-      setError('Código inválido o juego no disponible');
+      setError('Código inválido o partida no disponible');
       return;
     }
     
+    if (Platform.OS !== 'web') {
+      Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
+    }
+    
+    Keyboard.dismiss();
     setShowJoinModal(false);
     router.push('/lobby');
   };
