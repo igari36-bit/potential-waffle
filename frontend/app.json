@@ -15,7 +15,7 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.resonance.app"
+      "bundleIdentifier": "com.sospecha.app"
     },
     "android": {
       "adaptiveIcon": {
