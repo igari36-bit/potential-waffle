@@ -75,10 +75,10 @@ export default function Index() {
       {/* Header */}
       <View style={styles.header}>
         <View style={styles.iconWrapper}>
-          <Ionicons name="radio" size={60} color="#00d2ff" />
+          <Ionicons name="eye" size={60} color="#00d2ff" />
         </View>
-        <Text style={styles.title}>RESONANCE</Text>
-        <Text style={styles.subtitle}>Sincronízate o sabotéalo</Text>
+        <Text style={styles.title}>SOSPECHA</Text>
+        <Text style={styles.subtitle}>Confía o desconfía</Text>
       </View>
 
       {/* Buttons */}
