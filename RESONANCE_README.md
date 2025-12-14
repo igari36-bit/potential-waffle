@@ -344,4 +344,4 @@ Para preguntas o reportar bugs:
 
 ---
 
-**¡Disfruta jugando RESONANCE!** 🎮🌐✨
+**¡Disfruta jugando SOSPECHA!** 🎮🌐✨
