@@ -42,10 +42,6 @@ export default function Lobby() {
       return;
     }
     
-    if (Platform.OS !== 'web') {
-      Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
-    }
-    
     startGame();
   };
 
