@@ -144,7 +144,7 @@ Esto iniciará:
 
 1. Ve a [Firebase Console](https://console.firebase.google.com/)
 2. Click en "Agregar proyecto"
-3. Nombre: "Resonance" (o el que prefieras)
+3. Nombre: "Sospecha" (o el que prefieras)
 4. Habilita Google Analytics (opcional)
 5. Crea el proyecto
 
