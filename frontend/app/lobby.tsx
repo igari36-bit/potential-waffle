@@ -158,7 +158,7 @@ export default function Lobby() {
           </Text>
         </View>
       )}
-    </View>
+    </SafeAreaView>
   );
 }
 
