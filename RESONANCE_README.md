@@ -152,7 +152,7 @@ Esto iniciará:
 
 1. En Firebase Console → Project Settings → General
 2. Scroll hasta "Tus apps" y click en el ícono de web `</>`
-3. Registra la app con nombre "Resonance Web"
+3. Registra la app con nombre "Sospecha Web"
 4. Copia el `firebaseConfig`
 
 ### Paso 3: Habilitar Servicios
