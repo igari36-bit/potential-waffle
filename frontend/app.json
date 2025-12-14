@@ -34,17 +34,6 @@
     ],
     "experiments": {
       "typedRoutes": true
-    },
-    "extra": {
-      "eas": {
-        "build": {
-          "experimental": {
-            "npm": {
-              "autolinking": false
-            }
-          }
-        }
-      }
     }
   }
 }
