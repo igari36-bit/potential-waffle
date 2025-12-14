@@ -5,16 +5,7 @@
   "build": {
     "production": {
       "android": {
-        "buildType": "app-bundle",
-        "gradleCommand": ":app:bundleRelease",
-        "image": "latest",
-        "cache": {
-          "disabled": false,
-          "clear": true
-        }
-      },
-      "env": {
-        "NODE_ENV": "production"
+        "buildType": "app-bundle"
       }
     }
   },
