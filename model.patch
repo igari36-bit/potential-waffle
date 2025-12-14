@@ -1,31 +1,36 @@
-diff --git a/RESONANCE_README.md b/RESONANCE_README.md
-index 6578e22..004e7ec 100644
---- a/RESONANCE_README.md
-+++ b/RESONANCE_README.md
-@@ -152,7 +152,7 @@ Esto iniciará:
- 
- 1. En Firebase Console → Project Settings → General
- 2. Scroll hasta "Tus apps" y click en el ícono de web `</>`
--3. Registra la app con nombre "Resonance Web"
-+3. Registra la app con nombre "Sospecha Web"
- 4. Copia el `firebaseConfig`
- 
- ### Paso 3: Habilitar Servicios
 diff --git a/model.patch b/model.patch
-index b656e3e..e69de29 100644
+index 4eea2b5..e69de29 100644
 --- a/model.patch
 +++ b/model.patch
-@@ -1,13 +0,0 @@
--diff --git a/frontend/app/index.tsx b/frontend/app/index.tsx
--index afccecd..1299bae 100644
----- a/frontend/app/index.tsx
--+++ b/frontend/app/index.tsx
--@@ -230,7 +230,7 @@ export default function Index() {
--           </View>
--         </KeyboardAvoidingView>
--       </Modal>
---    </View>
--+    </SafeAreaView>
--   );
-- }
+@@ -1,31 +0,0 @@
+-diff --git a/RESONANCE_README.md b/RESONANCE_README.md
+-index 6578e22..004e7ec 100644
+---- a/RESONANCE_README.md
+-+++ b/RESONANCE_README.md
+-@@ -152,7 +152,7 @@ Esto iniciará:
 - 
+- 1. En Firebase Console → Project Settings → General
+- 2. Scroll hasta "Tus apps" y click en el ícono de web `</>`
+--3. Registra la app con nombre "Resonance Web"
+-+3. Registra la app con nombre "Sospecha Web"
+- 4. Copia el `firebaseConfig`
+- 
+- ### Paso 3: Habilitar Servicios
+-diff --git a/model.patch b/model.patch
+-index b656e3e..e69de29 100644
+---- a/model.patch
+-+++ b/model.patch
+-@@ -1,13 +0,0 @@
+--diff --git a/frontend/app/index.tsx b/frontend/app/index.tsx
+--index afccecd..1299bae 100644
+----- a/frontend/app/index.tsx
+--+++ b/frontend/app/index.tsx
+--@@ -230,7 +230,7 @@ export default function Index() {
+--           </View>
+--         </KeyboardAvoidingView>
+--       </Modal>
+---    </View>
+--+    </SafeAreaView>
+--   );
+-- }
+-- 
