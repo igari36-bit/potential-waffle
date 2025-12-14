@@ -62,10 +62,6 @@ export default function Game() {
       return;
     }
     
-    if (Platform.OS !== 'web') {
-      Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
-    }
-    
     submitSignal(selectedSignal);
     setHasSubmitted(true);
   };
