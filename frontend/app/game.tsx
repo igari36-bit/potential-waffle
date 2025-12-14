@@ -59,8 +59,12 @@ export default function Game() {
 
   const handleSubmitSignal = () => {
     if (selectedSignal === undefined) {
-      Alert.alert('Error', 'Por favor selecciona un número');
+      Alert.alert('Error', 'Por favor, selecciona un número');
       return;
+    }
+    
+    if (Platform.OS !== 'web') {
+      Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
     }
     
     submitSignal(selectedSignal);
