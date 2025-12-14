@@ -1,0 +1,13 @@
+diff --git a/frontend/app/index.tsx b/frontend/app/index.tsx
+index afccecd..1299bae 100644
+--- a/frontend/app/index.tsx
++++ b/frontend/app/index.tsx
+@@ -230,7 +230,7 @@ export default function Index() {
+           </View>
+         </KeyboardAvoidingView>
+       </Modal>
+-    </View>
++    </SafeAreaView>
+   );
+ }
+ 
