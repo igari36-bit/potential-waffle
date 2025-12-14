@@ -22,7 +22,7 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#0f0f1e"
       },
-      "package": "com.resonance.app"
+      "package": "com.sospecha.app"
     },
     "web": {
       "bundler": "metro",
