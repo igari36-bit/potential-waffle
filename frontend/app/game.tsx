@@ -310,7 +310,7 @@ export default function Game() {
           </View>
         )}
       </ScrollView>
-    </View>
+    </SafeAreaView>
   );
 }
 
