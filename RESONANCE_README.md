@@ -1,6 +1,6 @@
-# 🎮 RESONANCE - Juego Social de Deducción
+# 🎮 SOSPECHA - Juego Social de Deducción
 
-**Sincronízate o sabotéalo**
+**Confía o desconfía**
 
 Juego multijugador en tiempo real donde los jugadores deben sincronizarse para completar misiones, pero hay disruptores entre ellos intentando sabotear sin ser descubiertos.
 
