@@ -298,6 +298,14 @@ const styles = StyleSheet.create({
     color: '#fff',
     fontSize: 16,
   },
+  footer: {
+    alignItems: 'center',
+    paddingVertical: 16,
+  },
+  footerText: {
+    fontSize: 12,
+    color: '#666',
+  },
   modalOverlay: {
     flex: 1,
     backgroundColor: 'rgba(0, 0, 0, 0.8)',
