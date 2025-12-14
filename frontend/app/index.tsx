@@ -33,10 +33,6 @@ export default function Index() {
       return;
     }
     
-    if (Platform.OS !== 'web') {
-      Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
-    }
-    
     const code = createGame(playerName.trim());
     Keyboard.dismiss();
     setShowCreateModal(false);
