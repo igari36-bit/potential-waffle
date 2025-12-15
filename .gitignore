@@ -79,3 +79,7 @@ agenthub/agents/youtube/db
 # Mobile development
 android-sdk/ sospecha-codigo-completo.tar.gz
 sospecha-codigo-completo.tar.gz
+-e 
+# Environment files
+*.env
+*.env.*
